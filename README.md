@@ -19,5 +19,5 @@ $ sudo apt install ansible python3
 Execute the following playbook to set the server:
 
 ```bash
-$ ansible-playbook -i inventory --ask-become-pass playbooks/setup.yaml
+$ ansible-playbook --ask-become-pass playbooks/setup.yaml
 ```
